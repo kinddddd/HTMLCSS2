@@ -1,3 +1,43 @@
+* {
+    font-family: sans-serif;
+}
+
 .backgroundGeneral {
-    background-color: black;
+    background-color: #F0F0F0;
+}
+
+.center {
+    text-align:center;
+}
+
+.halfsize {
+    width: 15%;
+}
+
+.margin {
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.width {
+    width: 250px;
+}
+.alignleft {
+    text-align: left;
+}
+
+.buttonwidth {
+    font-size: 20px;
+}
+
+.marginform {
+    margin-top: 20px;
+}
+
+.fontsizebut {
+    font-size: 20px;
+}
+
+.inline {
+    display:inline;
 }
