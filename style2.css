@@ -38,9 +38,31 @@
     width: 200px;
     height: 50px;
     font-size: 22px;
-
 }
 
 .tostextsize {
     font-size: 12px;
+}
+
+.centered {
+    margin:auto;
+    width: 20%;
+}
+
+.side {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.marginfooter {
+    margin-top: 30px;
+}
+
+.iconposition {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+
 }
