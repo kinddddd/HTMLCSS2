@@ -19,15 +19,15 @@
             <form method="post" action="/ejercicio2.html">
                 <div class="marginleft">
                     <label class="titlesize" for="email">Email</label>
-                    <p><input type="email" name="email" class="boxwidth"></p>
+                    <p><input type="email" name="email" class="boxwidth" placeholder="email@gmail.com" required></p>
                 </div>
                 <div class="marginleft">
                     <label for="username" class="titlesize">Username</label>
-                    <p><input type="text" name="username" class="boxwidth"></p>
+                    <p><input type="text" name="username" class="boxwidth" placeholder="username" required minlength="4" maxlength="12"></p>
                 </div>
                 <div class="marginleft">
                     <label for="pass" class="titlesize">Password</label>
-                    <p><input type="password" name="pass" class="boxwidth"></p>
+                    <p><input type="password" name="pass" class="boxwidth" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$"></p>
                 </div>
                 <div class="marginleft">
                     <ul>
@@ -43,7 +43,7 @@
                     <p class="spamtextsize">I don't want to receive emails about new Mailchamp products, best practices, or special offers.</p>
                 </div>
                 <div class="center">
-                    <input type="submit" value="Sign Up" class="submitbutton">
+                    <input type="submit" value="Sign Up" class="submitbutton" required>
                 </div>
             </form>
         </div>
